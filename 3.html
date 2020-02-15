@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+<body>
+	<a-assets>
+	<img id="yoo" src="new/royal.jpg">
+	</a-assets>
+<a-scene>
+	
+	<a-box color="white" width="3" height="2" depth="1"
+	position="-0.431 2.253 -4.426" 
+	rotation="-47.190 92.767 172.180" 
+	scale="-0.188 0.700 2.726" src="#yoo">
+	<a-animation attribute="rotation" repeat="indefinite" to="0 360 0"></a-animation> 
+	</a-box>
+	<a-sphere color="red" radius="1" position="-1.262 0.929 -4.049" rotation="178.934 -23.272 -180.000" scale="1.000 1.230 0.187" >
+	<a-animation=property:position; 5 1.6 0; dur:indefinite"></a-animation> 
+</a-sphere>
+	
+</a-scene>
+</body>
+</html>
